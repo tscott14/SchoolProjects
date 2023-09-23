@@ -15,7 +15,7 @@ The input and output file and directories can be configured at the top of the [P
 
 ---
 
-##LICENSE:
+## LICENSE:
 **Copyright Notice :copyright:**
 
 *This project is my own work and unless authorized by me with written permission, no individual nor organization is allowed to copy or redistribute any code present in this repository for academic or other reasons.*
