@@ -18,7 +18,7 @@ The projects created throughout this course are cataloged below:
 
 ---
 ## Course Textbook
-<img center="left" width="400" height="100" src="https://pictures.abebooks.com/isbn/9780130291042-us.jpg">
+<img center="left" width="400" height="533" src="https://pictures.abebooks.com/isbn/9780130291042-us.jpg">
 
 The textbook used in this course was [Programming Languages: Design and Implementation 4ed](https://books.google.com/books/about/Programming_Languages.html?id=g5pQAAAAMAAJ) by Terrence W. Pratt and Marvin V. Zelkowitz.
 
