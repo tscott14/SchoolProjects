@@ -1,0 +1,45 @@
+/* table {
+    border-style:hidden;
+    background-color: blue;
+    border-collapse:collapse;
+    border-width: 0px;
+    border-spacing: 0px;
+    width: 0%;
+    height: 0%;
+    padding: 0px;
+    margin: 0px;
+}
+tr, td, th, div {
+    border: 0px;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    width: 0%;
+    height: 0%;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    text-align:center;
+}
+button{
+    width:100%;
+    height:100%;
+    padding: 0%;
+    display: inline-block;
+    border-width: 0px;
+} */
+
+
+.schedulerContainer {
+    border-collapse: collapse;
+    border-width: 0px;
+    border-spacing: 0px;
+    width: 0%;
+    height: 0%;
+    padding: 0px;
+    margin: 0px;
+}
+
+button.col {
+    border: .1rem solid #48c0f8;
+}

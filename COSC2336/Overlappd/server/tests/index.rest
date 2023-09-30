@@ -1,0 +1,6 @@
+### Retreive the main page
+GET http://localhost:5000/
+
+### Retreive the main page
+GET http://localhost:5000/
+Authorization: BEARER eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWciOiJ3b3JraW5nLXVzZXIwMDEiLCJ1c2VybmFtZSI6IldvcmtpbmcgVXNlciIsImVtYWlsIjoid29ya2luZy51c2VyQGdtYWlsLmNvbSIsImRhdGVDcmVhdGVkIjoxNzA3NDUzOTM2MTU2NjcyfQ.mG8wJeP6_gp3DR07gKs6yZ7scRvjbjxyD6oETc7Lc04

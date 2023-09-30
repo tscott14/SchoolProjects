@@ -1,0 +1,35 @@
+### Send the registration form data
+POST http://localhost:5000/api/account/create
+Content-Type: application/json 
+
+{
+    "usertag": "test-tag0090",
+    "username": "LoginDummy90",
+    "email": "dummy90@gmail.com",
+    "password": "password90"
+}
+
+### Mutate an account
+POST http://localhost:5000/api/account/modify
+Content-Type: application/json 
+
+{
+    "new_username": "dummy4",
+    "new_email": "dummy91@gmail.com1",
+    "new_password": "password41"
+}
+
+### Delete an account
+POST http://localhost:5000/api/account/delete
+
+### Send the login information
+POST http://localhost:5000/api/account/signin
+Content-Type: application/json
+
+{
+    "email": "dummy1@gmail.com",
+    "password": "password1"
+}
+
+### Logout, deleting the JWT from cookies.
+POST http://localhost:5000/api/account/signout

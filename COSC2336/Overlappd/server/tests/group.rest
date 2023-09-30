@@ -1,0 +1,49 @@
+### Create a group
+POST http://localhost:5000/api/group/create
+Content-Type: application/json
+
+{
+    "gtag": "dnd",
+    "title": "Dungeons and Dragons",
+    "pfp": "localhost"
+}
+
+### Update a group
+POST http://localhost:5000/api/group/modify
+Content-Type: application/json
+
+{
+    "gtag": "dnd",
+    "new_users": [
+        "test-tag001",
+        "test-tag002",
+        "test-tag003",
+        "test-tag004",
+        "test-tag005",
+        "test-tag006",
+        "test-tag007",
+        "test-tag008"
+    ],
+    "new_title": "new title 1",
+    "new_pfp": "new pfp 1"
+}
+
+### Delete a group
+POST http://localhost:5000/api/group/delete
+Content-Type: application/json
+
+{
+    "gtag": "dnd"
+}
+
+### Get basic group information
+GET http://localhost:5000/api/group/dnd/view/
+
+### Get list of group users
+GET http://localhost:5000/api/group/dnd/users
+
+### Get full details of a specific group users
+GET http://localhost:5000/api/group/dnd/users/test-tag0011
+
+### Get group schedule (as seen in /models/schedule.json)
+GET http://localhost:5000/api/group/dnd/schedule/
