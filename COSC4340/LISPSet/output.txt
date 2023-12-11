@@ -1,0 +1,24 @@
+
+"Value of (MY_MEMBER 'a '(a b c)) is " T
+"Value of (MY_MEMBER 'a '(b c d)) is " NIL
+
+"Value of (MY_UNION '(a b c) '(a b c)) is " (A B C)
+"Value of (MY_UNION '(a b c) '(d e f)) is " (A B C D E F)
+"Value of (MY_UNION '(a b c) '(b c d)) is " (A B C D)
+"Value of (MY_UNION '() '(a b c)) is " (A B C)
+"Value of (MY_UNION '(a b c) '()) is " (A B C)
+"Value of (MY_UNION '() '()) is " NIL
+
+"Value of (MY_INTERSECT '(a b c) '(a b c)) is " (A B C)
+"Value of (MY_INTERSECT '(a b c) '(d e f)) is " NIL
+"Value of (MY_INTERSECT '(a b c) '(b c d)) is " (B C)
+"Value of (MY_INTERSECT '() '(a b c)) is " NIL
+"Value of (MY_INTERSECT '(a b c) '()) is " NIL
+"Value of (MY_INTERSECT '() '()) is " NIL
+
+"Value of (MY_DIFFERENCE '(a b c) '(a b c)) is " NIL
+"Value of (MY_DIFFERENCE '(a b c) '(d e f)) is " (A B C)
+"Value of (MY_DIFFERENCE '(a b c) '(b c d)) is " (A)
+"Value of (MY_DIFFERENCE '() '(a b c)) is " NIL
+"Value of (MY_DIFFERENCE '(a b c) '()) is " (A B C)
+"Value of (MY_DIFFERENCE '() '()) is " NIL
