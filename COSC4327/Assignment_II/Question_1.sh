@@ -15,7 +15,7 @@
 CURR_DIR=$(pwd)
 NUM_OF_FILES=$(ls | wc -w)
 LARG_HIDD_FILE=$(find . -type f -name '.*' -printf "%f %s\n" | sort -r -n -k2 |  head -n1)
-C_FILES=$(find -name "*.c" -printf "%f " && echo)
+C_FILES=$(find ~/ -name "*.c" -printf "%f " && echo)
 
 # Print the data requested.
 echo "Current Directory: $CURR_DIR"

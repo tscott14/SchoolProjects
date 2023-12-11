@@ -1,0 +1,26 @@
+Hail and well met, adventurer. Welcome to the help file.
+
+Thou art viewing this through the linux 'less' command, so fear not to exit using the 'q' button.
+
+Before thy journey begins, thou must provide thy name. Enter whatever thou desireth and proceed forthwith.
+Shouldst thou neglect to provide a name, the default configured in the config file shall be used. (currently set to 'Froto')
+
+Once thou hast entered the realm, thou must scour each 'land' for clues. Only when all lands with clues have been searched, shall the passcode be derived by concatenating them in the correct order.
+For debugging purposes, the key needed to exit the game shall be provided on the last line of this help.txt file (Not displayed here, but is present in the actual file).
+Praise be to the Valar, for just about every input is case insensitive. Thus, 'eAsT' is identical to 'EaST' or any other permutation.
+
+Upon entering the world, thou shalt be presented with several options. These may include:
+search -- Invoke with the character sequence 'se' or 'search' (again case insensitive). This shall search the land thou art in for clues.
+look -- Invoke with the character sequence 'l' or 'look'. This shall reprint the basic description of the land thou art in. (This is displayed by default once thou enterest a 'land', but the option still exists for the assignments sake)
+
+And of course, the cardinal directions:
+north -- Invoke with 'n' or 'north' to travel north if possible.
+south -- Invoke with 's' or 'south' to travel south if possible.
+east -- Invoke with 'e' or 'east' to travel east if possible.
+west -- Invoke with 'w' or 'west' to travel west if possible.
+
+Each land shall boast a decorative ASCII name splash and a basic ASCII art representation of the map. Should these fail for any reason, supply 'no_ascii_art' as the first parameter to disable all ASCII art.
+
+Shouldst thou need to make a hasty retreat from the game during thy quest, simply type ':q!'
+
+SPOILERS: The passcode is 'One Ring to rule them all' (with any permutation of capitalization). May the light of the Valar guide thee on thy journey.

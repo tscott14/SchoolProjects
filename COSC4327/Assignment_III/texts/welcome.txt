@@ -1,0 +1,4 @@
+Welcome to my Lord of the Rings themed project for Assignment 3.
+
+For more info about important details pertaining to this assignment, please read the README.md file provided.
+

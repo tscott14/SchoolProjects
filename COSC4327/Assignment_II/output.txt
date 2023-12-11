@@ -1,0 +1,3 @@
+systemd-journal-upload,			systemd,			!NO_HASHED_PASSWORD_PROVIDED,			/
+dnsmasq,			Journal,			!NO_HASHED_PASSWORD_PROVIDED,			/
+_talkd,			Upload,			!NO_HASHED_PASSWORD_PROVIDED,			/

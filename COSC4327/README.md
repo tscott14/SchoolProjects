@@ -7,6 +7,9 @@ This course's description states about itself: "A brief description of the conte
 Assignments for this class can be found below:
 1. [Assignment 1](./Assignment_I/)
 1. [Assignment 2](./Assignment_II/)
+1. [Assignment 3](./Assignment_III/)
+1. [Assignment 4](./Assignment_IV/)
+1. [Assignment 5](./Assignment_V/)
 
 --- 
 

@@ -32,16 +32,18 @@ HOMEDIRS="$(cat /etc/passwd | tail -n3 | cut -d ":" -f 6)"
 echo -e "$(echo $USERNAMES | awk '{print $1}'),\t	\
 	$(echo $FULLNAMES | awk '{print $1}'),\t	\
 	$(echo $USERPASSWDS | awk '{print $1}'),\t	\
-	$(echo $HOMEDIRS | awk '{print $1}')"
+	$(echo $HOMEDIRS | awk '{print $1}')" > output.txt
 
 # Print the info for user 2.
 echo -e "$(echo $USERNAMES | awk '{print $2}'),\t	\
 	$(echo $FULLNAMES | awk '{print $2}'),\t	\
 	$(echo $USERPASSWDS | awk '{print $2}'),\t	\
-	$(echo $HOMEDIRS | awk '{print $2}')"
+	$(echo $HOMEDIRS | awk '{print $2}')" >> output.txt
 
 # Print the info for user 3.
 echo -e "$(echo $USERNAMES | awk '{print $3}'),\t	\
 	$(echo $FULLNAMES | awk '{print $3}'),\t	\
 	$(echo $USERPASSWDS | awk '{print $3}'),\t	\
-	$(echo $HOMEDIRS | awk '{print $3}')"
+	$(echo $HOMEDIRS | awk '{print $3}')" >> output.txt
+
+cat output.txt
